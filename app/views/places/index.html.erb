@@ -1,1 +1,11 @@
-<h1>Welcome to my Awesome ssApp</h1>
+<% @places.each do |place| %>
+  <div>
+    <h1><%= place.name %></h1>
+    <i><%= place.address %></i>
+    <p><%= place.description %></p>
+    <br />
+  </div>
+
+  <hr />
+<% end %>
+
