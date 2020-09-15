@@ -95,9 +95,12 @@ GEM
     eventmachine (1.2.7)
     execjs (2.7.0)
     ffi (1.13.1)
+    figaro (1.2.0)
+      thor (>= 0.14.0, < 2)
     font-awesome-rails (4.7.0.5)
       railties (>= 3.2, < 6.1)
     formatador (0.2.5)
+    geocoder (1.6.3)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     guard (2.16.2)
@@ -274,7 +277,9 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   devise
+  figaro
   font-awesome-rails
+  geocoder
   guard
   guard-livereload (~> 2.5)
   jbuilder (~> 2.5)
